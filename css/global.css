@@ -1,0 +1,114 @@
+body {
+    background: #222;
+}
+
+h3 {
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: #555;
+}
+
+h4 {
+    font-size: 15px;
+    font-weight: 600;
+    margin-top: 7px;
+    margin-bottom: 20px;
+    color: #555;
+}
+
+.main {
+    max-width: 1000px;
+    margin: 0 auto;
+    background: #fff;
+    margin-top: 20px;
+}
+
+.user_badge {
+    margin-bottom: 30px;
+}
+
+.user_badge_content {
+   cursor: pointer;
+}
+
+.user_badge_content.active {
+    border-radius: 50px;
+    background: #eee;
+    margin:-1px;
+    border: 1px solid #aaa;
+}
+
+.user_badge_content:hover {
+    border-radius: 50px;
+    background: #ddd;
+    margin:-1px;
+    border: 1px solid #655;
+    overflow: hidden;
+}
+
+.image_badge {
+    vertical-align: middle;
+    margin-left: 1px;
+    margin-right: 20px;
+    width: 50px;
+    height: 50px;
+}
+
+.user_data {
+    border-left: 1px solid #ddd;
+    position: relative;
+}
+
+.capitalize {
+    text-transform: capitalize;
+}
+
+#picture_background {
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    height: 250px;
+    filter: blur(6px);
+    -webkit-filter: blur(6px);
+    background-image: url('../img/user.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 30px;
+}
+
+.picture_content {
+    position: relative;
+    text-align: center;
+    left: 0px;
+    top: 0px;
+    padding-top: 25px;
+    margin-bottom: 30px;
+}
+
+#user_picture {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    border: 6px solid #fff;
+    position: relative;
+    display: inline-block;
+}
+
+#user_name {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+#information {
+    margin-left: 20px;
+    margin-top: 30px;
+    padding-top: 30px;
+}
+
+#information span {
+    font-size: 10px;
+    color: #999;
+}
